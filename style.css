@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 4% 0 0 10%;
+    color: white;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(166deg, rgba(238, 174, 202, 1) 0%, rgba(157, 200, 250, 1) 100%);
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+
+}
+
+.container h1 img {
+    width: 60px
+}
+
+.container button img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(84, 82, 80, 1) 100%);
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 30px 0 20px;
+    color: white;
+}
+
+p {
+    height: 150px;
+    width: 500px;
+    min-width: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: black;
+    padding: 1.5%;
+    border-radius: 10px;
+    outline: 0px solid transparent;
+    position: relative;
+
+}
+
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
